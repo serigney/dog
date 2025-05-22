@@ -43,32 +43,37 @@ p{
 .buttons {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    justify-content: center;
 }
 .input{
+      font-family: "Quicksand";
+    font-weight: 700;
   display: flex;
     border-radius: 4px;
     cursor: pointer;
     margin: 15px;
-    height: 30px;
+    height: 25px;
     width: 30px;
-    align-items: center;
+    
 }
 .clear {
+      font-family: "Quicksand";
+    font-weight: 700;
    display: flex;
     border-radius: 4px;
     cursor: pointer;
     margin: 15px;
     height: 30px;
-    align-items: center;
+    
 }
 .equals{
+      font-family: "Quicksand";
+    font-weight: 700;
    display: flex;
-      border-radius: 4px;
+    border-radius: 4px;
     cursor: pointer;
     margin: 15px;
     height: 30px;
-    align-items: center;
 }
 .lobster-regular {
   font-family: "Lobster", sans-serif;
